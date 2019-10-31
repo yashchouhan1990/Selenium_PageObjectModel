@@ -19,7 +19,7 @@ public class TestBase {
 	public TestBase() throws IOException {
 		try {
 			prop = new Properties();
-			FileInputStream fis= new FileInputStream("/Users/yashchouhan/eclipse-workspace/Selenium_PageObjectModel/src/main/java/com/crm/qa/config/config.properties");
+			FileInputStream fis= new FileInputStream("/Users/yashchouhan/git/Selenium_PageObjectModel/Selenium_PageObjectModel/src/main/java/com/crm/qa/config/config.properties");
 			prop.load(fis);
 
 		}

@@ -66,7 +66,7 @@ and these two annotations point to the same list of elements:
 		return crmLogo.isDisplayed();
 	}
 	
-	public HomePage login(String un, String pwd) {
+	public HomePage login(String un, String pwd) throws IOException {
 		username.sendKeys(un);
 		password.sendKeys(pwd);
 		loginBtn.click();
